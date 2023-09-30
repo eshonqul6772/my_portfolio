@@ -1,16 +1,9 @@
-/**
-* Template Name: Personal - v4.10.0
-* Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+*{
+  box-sizing: border-box;
+}
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  background-color: #040404;
   color: #fff;
   position: relative;
   background: transparent;
@@ -245,7 +238,6 @@ h6 {
   left: 0;
   background-color: #18d26e;
   visibility: hidden;
-  width: 0px;
   transition: all 0.3s ease-in-out 0s;
 }
 
@@ -392,7 +384,6 @@ section .container {
 }
 
 .section-title p {
-  margin: 0;
   margin: -15px 0 15px 0;
   font-size: 36px;
   font-weight: 700;
@@ -599,13 +590,12 @@ section .container {
 }
 
 .testimonials .testimonial-item p {
-  font-style: italic;
-  margin: 0 15px 0 15px;
+  position: relative;
   padding: 20px 20px 60px 20px;
+  margin: 0 15px 0 15px;
+  font-style: italic;
   background: rgba(255, 255, 255, 0.1);
-  position: relative;
   border-radius: 6px;
-  position: relative;
   z-index: 1;
 }
 
@@ -697,7 +687,7 @@ section .container {
 }
 
 .services .icon-box .icon {
-  margin: 0 auto;
+  margin: 0 auto 20px;
   width: 64px;
   height: 64px;
   background: #18d26e;
@@ -706,7 +696,6 @@ section .container {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 20px;
   transform-style: preserve-3d;
 }
 
@@ -774,12 +763,11 @@ section .container {
 }
 
 .portfolio #portfolio-flters {
-  padding: 0;
   margin: 0 auto 15px auto;
+  padding: 2px 15px;
   list-style: none;
   text-align: center;
   border-radius: 50px;
-  padding: 2px 15px;
 }
 
 .portfolio #portfolio-flters li {
